@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-white;
+  }
+}
+
+@layer components {
+  .sidebar-item {
+    @apply flex items-center p-2 text-gray-300 rounded-lg hover:bg-gray-700;
+  }
+
+  .sidebar-item-icon {
+    @apply w-6 h-6 text-gray-400;
+  }
+
+  .sidebar-item-text {
+    @apply ml-3;
+  }
+}
